@@ -1,0 +1,119 @@
+#textoMain{
+    text-align: center;
+    font-size: larger;
+}
+
+.titleSlide{
+  background-color: black;
+  border-radius: 100px;
+}
+
+.textSlide{
+    background-color: black;
+    border-radius: 100px;
+}
+.carousel-control-prev:hover{
+   background-color:#878787;
+   border-radius: 100px;
+   width: 5%;
+   margin-top: 10%;
+   margin-bottom: 10%;
+}
+
+.carousel-control-next:hover{
+    background-color:#878787;
+    border-radius: 100px;
+    width: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+ }
+
+ .carousel-indicators{
+     background-color: black;
+     border-radius: 100px;
+     width: 50%;
+     left: 10%;
+ }
+
+ .card{
+     font-size: larger;
+     margin-right: 15%;
+     margin-left: 15%;
+     padding: 1%;
+     border-radius: 500px;
+ }
+
+ .cor-alto-contraste{
+    background-color: black;
+    color: white;
+}
+
+img{
+    border-radius: 100px;
+}
+
+#exemplos{
+    border: none;
+}
+
+.form-group{
+    width: 50%;
+}
+
+#secao4{
+    border: none;
+}
+
+#secao5{
+    border: none;
+    right: 20%;
+}
+
+#secao6{
+    border: none;
+    right: 20%;
+}
+
+#secao7{
+    border: none;
+    right: 20%;
+}
+
+#dropdown{
+    left: 63.5%;
+}
+
+.rodapeFixo{
+    color: white;
+    padding: 1%;
+}
+
+/* Caso tela de celular */
+@media screen and (max-width: 800px){
+    .card{ 
+        font-size: medium;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding: 1%;
+        border-radius: 50px;
+    }
+    #secao5{
+        right: 0%;
+    }
+    
+    #secao6{
+        right: 0%;
+    }
+    
+    #secao7{
+        right: 0%;
+    }
+   
+
+    #dropdown{
+        left: 0%;
+   }
+
+
+}
+
